@@ -19,13 +19,15 @@ export default function App() {
           <>
             <NavBar />
             <Routes>
-              {/* Route components in here */}
+              <Route path="/" element={<HomePage />} />
               <Route path="/services" element={<ServicesPage />} />
               <Route path="/contact-us" element={<ContactPage />} />
-              <Route path="/" element={<HomePage />} />
               <Route path="/results" element={<ResultsPage />} />
-
+              {/* <Route path='/google-ads' element={<GoogleAdsPage />}/>
+              <Route path='/facebook-ads' element={<FacebookAdsPage />}/>
+              <Route path='/instagram-ads' element={<InstagramAdsPage />}/> */}
             </Routes>
+            
           </>
     </main>
   );

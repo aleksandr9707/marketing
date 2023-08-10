@@ -6,15 +6,35 @@ body{
     background-color: DDDDDD;
 }
 
-.left-side {
+/* .jumbotron {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 100vh; /* Set the height of the left side to the full viewport height */
+    height: 100vh; 
     padding: 2rem;
-    margin-right: auto; /* Push the left side to the left edge of the page */
-    margin-left: 50px; /* Reset any default margin */
+    margin-right: auto; 
+    margin-left: 50px; 
     margin-top: -90px;
-  }
+  } */
+
+  .thumbnail img {
+    max-width: 60px;
+    margin-bottom: 10px;
+}
+
+.col-md-3 img {
+    max-width: 60px;
+    margin-bottom: 10px;
+}
+
+/* Reduce the space between columns */
+.carousel-container .row > div[class^="col-"] {
+    margin-right: -10px; /* Adjust the value as needed */
+    margin-left: -10px; /* Adjust the value as needed */
+}
+
+.carousel-container img {
+    margin: 0 -10px; /* Adjust the value as needed */
+}
