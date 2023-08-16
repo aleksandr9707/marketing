@@ -3,8 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './NavBar.css';
 
 export default function NavBar() {
-
-export default function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <a className="navbar-brand" href="#home">Home</a>
