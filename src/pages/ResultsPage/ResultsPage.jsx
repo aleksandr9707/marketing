@@ -16,7 +16,6 @@ function ResultsPage() {
                   alt="Card 1 Placeholder"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Card 1</h5>
                   <p className="card-text">7x increased conversions</p>
                 </div>
               </div>
@@ -31,7 +30,6 @@ function ResultsPage() {
                   alt="Card 2 Placeholder"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Card 2</h5>
                   <p className="card-text">60% reduced conversion costs</p>
                 </div>
               </div>
@@ -46,7 +44,6 @@ function ResultsPage() {
                   alt="Card 3 Placeholder"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Card 3</h5>
                   <p className="card-text">3x conversion volume growth</p>
                 </div>
               </div>
@@ -63,7 +60,6 @@ function ResultsPage() {
                   alt="Card 4 Placeholder"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Card 4</h5>
                   <p className="card-text">4,000 page 1 keyword rankings</p>
                 </div>
               </div>
@@ -78,7 +74,6 @@ function ResultsPage() {
                   alt="Card 5 Placeholder"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Card 5</h5>
                   <p className="card-text">60% reduced conversion costs</p>
                 </div>
               </div>
@@ -93,7 +88,6 @@ function ResultsPage() {
                   alt="Card 6 Placeholder"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Card 6</h5>
                   <p className="card-text">800% increase in conversions</p>
                 </div>
               </div>

@@ -27,3 +27,7 @@
   .service p {
     color: #666666;
   }
+
+  .card img {
+    margin-top: 10px;
+  }

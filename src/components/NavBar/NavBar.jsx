@@ -1,13 +1,8 @@
 import React from 'react';
-import * as userService from '../../utilities/users-service';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './NavBar.css';
 
-export default function NavBar({ user, setUser }) {
-  function handleLogOut() {
-    userService.logOut();
-    setUser(null);
-  }
+export default function NavBar() {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -25,13 +20,10 @@ export default function NavBar({ user, setUser }) {
             <a className="nav-link" href="#services">Our Services</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#contact">Let's Talk</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#testimonials">Testimonials</a>
-          </li>
-          <li className="nav-item">
             <a className="nav-link" href="#results">Results</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#contact">Let's Talk</a>
           </li>
         </ul>
       </div>

@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react';
 import axios from 'axios';
+import emailjs from 'emailjs-com'; // Import the emailjs-com library
 
 export default function ContactPage() {
     const [formData, setFormData] = useState({
@@ -35,10 +36,29 @@ export default function ContactPage() {
                 email: '',
                 message: '',
             });
+
+            // Call the sendEmail function to send email using emailjs-com
+            sendEmail(evt);
+            alert('Sent!')
         } catch (error) {
             console.error('Error submitting form:', error);
             // Handle error if needed
         }
+    }
+
+    // Function to send email using emailjs-com
+    function sendEmail(e) {
+        e.preventDefault();
+
+        // Replace placeholders with your actual email service details
+        emailjs.sendForm('service_ukehlf3', 'template_n6vkdrm', e.target, 'S5H8GxjKskXRdTQ7w')
+            .then((result) => {
+                console.log('Email sent:', result);
+                window.location.reload();
+            })
+            .catch((error) => {
+                console.error('Email error:', error);
+            });
     }
 
     return (
