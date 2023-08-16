@@ -11,7 +11,7 @@ function ResultsPage() {
             <div className="card">
               <div className="card-container">
                 <img
-                  src="https://cdn-hhodb.nitrocdn.com/CyaFLPxpUyMlYWCyAbbjblZPQIEUltTe/assets/images/optimized/rev-f168688/hawksem.com/wp-content/themes/hawk-sem/images/new-2023/directv.svg"
+                  src="https://i.imgur.com/tVbnztX.png"
                   className="card-img-top"
                   alt="Card 1 Placeholder"
                 />
@@ -25,7 +25,7 @@ function ResultsPage() {
             <div className="card">
               <div className="card-container">
                 <img
-                  src="https://cdn-hhodb.nitrocdn.com/CyaFLPxpUyMlYWCyAbbjblZPQIEUltTe/assets/images/optimized/rev-f168688/hawksem.com/wp-content/themes/hawk-sem/images/new-2023/zephyr.svg"
+                  src="https://i.imgur.com/Csu7LKK.png"
                   className="card-img-top"
                   alt="Card 2 Placeholder"
                 />
@@ -39,7 +39,7 @@ function ResultsPage() {
             <div className="card">
               <div className="card-container">
                 <img
-                  src="https://cdn-hhodb.nitrocdn.com/CyaFLPxpUyMlYWCyAbbjblZPQIEUltTe/assets/images/optimized/rev-f168688/hawksem.com/wp-content/themes/hawk-sem/images/new-2023/verizon.svg"
+                  src="https://i.imgur.com/c5grWGb.png"
                   className="card-img-top"
                   alt="Card 3 Placeholder"
                 />
@@ -55,7 +55,7 @@ function ResultsPage() {
             <div className="card">
               <div className="card-container">
                 <img
-                  src="https://cdn-hhodb.nitrocdn.com/CyaFLPxpUyMlYWCyAbbjblZPQIEUltTe/assets/images/optimized/rev-f168688/hawksem.com/wp-content/themes/hawk-sem/images/new-2023/microsoft.svg"
+                  src="https://i.imgur.com/NjsnChi.png"
                   className="card-img-top"
                   alt="Card 4 Placeholder"
                 />
@@ -69,9 +69,12 @@ function ResultsPage() {
             <div className="card">
               <div className="card-container">
                 <img
-                  src="https://cdn-hhodb.nitrocdn.com/CyaFLPxpUyMlYWCyAbbjblZPQIEUltTe/assets/images/optimized/rev-f168688/hawksem.com/wp-content/themes/hawk-sem/images/new-2023/honda.svg"
+                  src="https://i.imgur.com/pqnGyHl.png"
                   className="card-img-top"
                   alt="Card 5 Placeholder"
+                  style={{
+                    maxHeight:"85px"
+                }} 
                 />
                 <div className="card-body">
                   <p className="card-text">60% reduced conversion costs</p>
@@ -83,7 +86,7 @@ function ResultsPage() {
             <div className="card">
               <div className="card-container">
                 <img
-                  src="https://cdn-hhodb.nitrocdn.com/CyaFLPxpUyMlYWCyAbbjblZPQIEUltTe/assets/images/optimized/rev-f168688/hawksem.com/wp-content/themes/hawk-sem/images/new-2023/csun.svg"
+                  src="https://i.imgur.com/2q34aCG.png"
                   className="card-img-top"
                   alt="Card 6 Placeholder"
                 />
