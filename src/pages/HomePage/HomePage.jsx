@@ -120,8 +120,7 @@ export default function HomePage() {
                                 that drive traffic, leads, and conversions.
                             </p>
                             <p>
-                                <Link to='/google-ads' className='btn btn-primary' role='button'>Button</Link>
-                                <Link to='/services' className='btn btn-default' role='button'>Button 2</Link>
+                                <Link to='/google-ads' className='btn btn-primary' role='button'>Details</Link>
                             </p>
                         </div>
                     </div>
@@ -133,8 +132,7 @@ export default function HomePage() {
                             <h3>Facebook Ads</h3>
                             <p>Connect with potential customers on Facebook through strategic ad campaigns and audience targeting.</p>
                             <p>
-                                <Link to='/results' className='btn btn-primary' role='button'>Button</Link>
-                                <Link to='/services' className='btn btn-default' role='button'>Button 2</Link>
+                                <Link to='/results' className='btn btn-primary' role='button'>Details</Link>
                             </p>
                         </div>
                     </div>
@@ -147,8 +145,7 @@ export default function HomePage() {
                             <p>Utilize Instagram's visual platform to showcase your products or services and engage with your audience.</p>
                             <div className='caption-buttons'>
                                 <p>
-                                    <Link to='/results' className='btn btn-primary' role='button'>Button</Link>
-                                    <Link to='/services' className='btn btn-default' role='button'>Button 2</Link>
+                                    <Link to='/results' className='btn btn-primary' role='button'>Details</Link>
                                 </p>
                             </div>
                         </div>
