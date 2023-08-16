@@ -1,29 +1,30 @@
-import { useState} from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { getUser } from '../../utilities/users-service';
 import './App.css';
-import AuthPage from '../AuthPage/AuthPage';
-import NewEntryPage from '../NewEntryPage/NewEntryPage';
 import NavBar from '../../components/NavBar/NavBar';
+import ServicesSection from '../../components/ServicesSection/ServicesSection'; 
+import ContactPage from '../ContactPage/ContactPage';
+import ResultsPage from '../../pages/ResultsPage/ResultsPage';
+import AboutPage from '../../pages/AboutPage/AboutPage';
+import HomePage from '../HomePage/HomePage';
+import GoogleAds from '../GoogleAds/GoogleAds';
 
 
 export default function App() {
-  const [user, setUser] = useState(getUser());
-
   return (
     <main className="App">
-      { user ?
-          <>
-            <NavBar user={user} setUser={setUser} />
-            <Routes>
-              {/* Route components in here */}
-              <Route path="/services" element={<NewEntryPage />} />
-              <Route path="/contact-us" element={<NewEntryPage />} />
-            </Routes>
-          </>
-          :
-          <AuthPage setUser={setUser} />
+      {
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+              <Route path="/services" element={<ServicesSection />} />
+              <Route path="/contact" element={<ContactPage />} />
+              <Route path="/results" element={<ResultsPage />} />
+              <Route path="/google-ads" element={<GoogleAds />} />
+        </Routes>
       }
+      <NavBar />
+      <ServicesSection />
+      <ContactPage />
+
     </main>
   );
 }
